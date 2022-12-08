@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us|Citrine</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <div class="menu">
+        <ul>
+            <li><a href="#Home" class="active">Home</a></li>
+        <li><a href="#About" class="active">About</a></li>
+        <li><a href=""><span>CITRINE</span></a></li>
+        <li><a href="#Collections1" class="active">Collections</a></li>
+        <li><a href="contact.html">Contact</a></li>
+     <li><a href="#cart">cart</a></li> 
+    
+        
+        </ul>
+
+
+</div>
+
+    <div class="container">
+         <h1>Contact Us</h1>
+    </div>
+        <form>
+            <div class="input">
+                <label>Email Address</label>
+                <input type="email" placeholder="Enter Email" id="email1" onkeyup="emailcheck">
+                <div id="email-error"></div>
+            </div>
+            <!-- <div id="email-error"></div> -->
+            <div class="input">
+                <label>Name</label>
+                <input type="name" placeholder="Enter Name" id="name1" onkeyup="namecheck">
+                <div id="name-error"></div>
+            </div>
+            <div class="input">
+                <label>Phone No.</label>
+                <input type="Num" placeholder="Enter number" id="num" onkeyup="numcheck">
+                <div id="number-error"></div>
+            </div>
+            <div class="input">
+                <label>Comments/Questions</label>
+               <textarea rows="10" placeholder="Enter your Comments" id="comment" onkeyup="commentcheck"></textarea>
+               <div id="comment-error"></div>
+            </div>
+            <button>submit</button>
+            
+        </form>
+        <script src="contact.js"></script>
+</body>
+</html>
