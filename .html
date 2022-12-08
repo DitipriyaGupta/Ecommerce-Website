@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>jewellery</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/98367aae84.js" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cardo&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+
+    <div class="menu">
+            <ul>
+                <li><a href="#Home" class="active">Home</a></li>
+            <li><a href="#About" class="active">About</a></li>
+            <li><a href=""><span>CITRINE</span></a></li>
+            <li><a href="#Collections1" class="active">Collections</a></li>
+            <li><a href="contact.html">Contact</a></li>
+<li class="cart1" >
+    <a href="cart.html">
+        <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+        <span class="count">0</span>
+    </a>
+
+</li>
+</ul>
+    </div>
+  <section class="Home" id="Home">
+        <div class="para"> 
+            <h1>"Leave a little sparkle
+                 whereever you go."
+                </h1>
+         </div>
+        
+        <div class="img"> 
+             <img src="images/ambassador-dilraba-main06_pc.webp"alt="">  
+
+        </div> 
+        <div class="scroll">SCROLL</div>
+ <div class="arrow"><i class="fa-solid fa-chevron-down"></i></div>       
+</section>
+<section class="About" id="About">
+    <div class="image" data-aos="fade-up" data-aos-delay="150">
+        <img src="images/Capture.PNG"alt="">
+    </div>
+
+<div class="para" data-aos="fade-up" data-aos-delay="300">
+    <p><span>CITRINE</span> imbues each piece
+         with a sense of artistry , 
+        shaped by influences from 
+        different cultures around the world. 
+        We also take pride in the unparalleled 
+        craftsmanship and passionate approach to 
+        our craft developed through more than 
+        a century of innovation.
+    </p>
+</div>
+</section>
+<section class="Collections1" id="Collections1">
+    <div class="container1 ">
+<div class="c1" data-aos="fade-right" data-aos-delay="150">
+    <img src="images/pearl1.PNG" alt="">
+</div>
+   <div class="c2" data-aos="fade-left" data-aos-delay="300">
+    <h2>Pearl Necklaces</h2>
+   <p>Our necklaces add that touch of finesse, creating a mesmerizing dance of light that exudes effortless elegance.</p>
+    <a href="explore.html">Explore</a>
+   </div>
+    </div>
+</section> -->
+ <section class="Collections2">
+    <div class="container2 ">
+    <div class="c3" data-aos="fade-right" data-aos-delay="450">
+        <h2>Bracelets</h2>
+        <p>Our bracelets add that touch of finesse, creating a mesmerizing dance of light that exudes effortless elegance.</p>
+        <a href="explore2.html">Explore</a>
+    </div>
+     <div class="c4" data-aos="fade-left" data-aos-delay="600">
+    <img src="images/pearl3.PNG" alt="">
+    </div>
+    </div>
+</section>
+<section class="Collections3">
+    <div class="container3 ">
+        <div class="c5"  data-aos="fade-right" data-aos-delay="750">
+         <img src="images/pearl4-modified (1).PNG" alt="">
+        </div>
+         <div class="c6"  data-aos="fade-left" data-aos-delay="900">
+            <h2>Rings</h2>
+            <p>Our Rings add that touch of finesse, creating a mesmerizing dance of light that exudes effortless elegance.</p>
+        <a href="explore3.html">Explore</a>
+            </div>
+
+    </div>
+</section>   
+
+<section id="login1">
+     <div class="popup" id="popup1"> 
+            <div class="content">
+               
+            <button class="close" id="close1" >x</button>
+            <div class="buttonbox">
+                <button type="button" class="toggle loginbtn" >LOG IN</button>
+                <button type="button" class="toggle signupbtn" >SIGN UP</button>
+                <button type="button" class="btn" >LOG IN</button>
+ </div>
+             <div class="inner"> 
+            <form class="form log" id="login" >
+                <div class="R">Registered Member</div>
+                <div class="input">
+                    <label>Email Address</label>
+                    <input type="email" class="input-field" placeholder="Enter Email" id="email" onkeyup="emailcheck" >
+                    <div id="email-error"></div>
+                </div>
+                <div class="input">
+                <label>Password</label>
+                <input type="password"  placeholder="Enter Password" id="pass" onkeyup="Passcheck" >
+                 <span id="eye">e</span>
+                <div id="password-error"></div>
+                </div>
+                <button class="login2">LOG IN</button>
+            </form> 
+            <form class="form sign" id="signup">
+                <div class="L">New member</div>
+                
+                <div class="input">
+                <label>Name</label>
+                <input type="name"   placeholder="Enter Name" id="name1" onkeyup="name1check">
+                <div id="name-error1"></div>
+                </div>
+                <div class="input">
+                    <label>Email Address</label>
+                    <input type="email"  placeholder="Enter Email" id="email1" onkeyup="email1check">
+                    <div id="email-error1"></div>
+                </div>
+                <div class="input">
+                <label>Password</label>
+                <input type="password"   placeholder="Enter Password" id="pass1" onkeyup="Pass1check">
+                <span id="eye">a</span> 
+                <div id="password1-error"></div>
+                </div>
+                <div class="input">
+                    <label>Confirm Password</label>
+                    <input type="password"  placeholder="Enter Password" id="pass2" onkeyup="Pass2check">
+                     <span id="eye">e</span>
+                    <div id="password2-error"></div>
+                    </div>
+                    <button class="sign1">SIGN IN</button>
+                
+            </form>
+             </div>
+            </div>
+            </div> 
+            
+       
+    
+        
+</section>
+<footer>
+    <div class="wrapper" data-aos="fade-up" data-aos-delay="300">
+        <div class="l">
+        <h1>SERVICE</h1>
+        <p>Phone : 1-844-341-0579</p>
+        <p>Contact us</p>
+        <p>Shipping & Returns</p>
+         <p>Schedule Appointment</p>
+          <p>Affirm</p>
+        </div>
+        <div class="mid" data-aos="fade-up" data-aos-delay="300">
+            <h1>LEGAL</h1>
+           <p> Accessibility Statement</p>
+<p>Terms and Privacy</p>
+<p>Cookie Notice</p>
+<p>Cookie Settings</p>
+        </div>
+
+        <div class="r" data-aos="fade-up" data-aos-delay="300">
+            <h1>SOCIAL MEDIA</h1>
+            <a href="https://www.instagram.com/">INSTAGRAM</a>
+            <a href="https://www.facebook.com/">FACEBOOK</a>
+            <a href="https://www.twitter.com/">TWITTER</a>
+
+            
+        </div>
+    </div>
+</footer>
+<script src="script.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration:800,
+    offset:200,
+  }) ;
+</script>
+</body>
+</html>
