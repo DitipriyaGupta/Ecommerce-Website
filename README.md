@@ -16,3 +16,8 @@ An E-commerce Website built using HTML,CSS,JS.
 ![image](https://user-images.githubusercontent.com/120082922/211574543-e969df24-7f56-4b4e-b221-631581d01b3b.png)
 ![image](https://user-images.githubusercontent.com/120082922/211574721-6906be22-3429-4de1-ac82-636a4446b9da.png)
 ![image](https://user-images.githubusercontent.com/120082922/211575284-fa72f95a-e003-4731-a310-74da581d271f.png)
+
+## Tech Stack
+- HTML
+- Css
+- JavaScript
