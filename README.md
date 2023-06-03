@@ -1,7 +1,10 @@
 
 # Citrine
 
-An E-commerce Website built using HTML,CSS,JS.
+Developed an end-to-end E-commerce website primarily using
+HTML, CSS, vanilla JS.
+It has a sleek UI primarily focused on jewelry or ornaments buyers. This also has an authentication (Login and Signup) service along with an add-to-cart functionality.
+
 
 ## Screenshots
 
